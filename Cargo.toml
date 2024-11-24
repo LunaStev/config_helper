@@ -1,0 +1,19 @@
+[package]
+name = "config_helper"
+version = "0.1.0"
+edition = "2021"
+authors = ["LunaStev <lunastev@gurmstudis.com>"]
+description = "A simple file upload and download server in Rust using Actix"
+license = "MPL-2.0"
+repository = "https://github.com/LunaStev/config-helper"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.5"
+yaml-rust = "0.4"
+serde_yaml = "0.9.34+deprecated"
+
+[lib]
+name = "config_helper"
+path = "src/lib.rs"
