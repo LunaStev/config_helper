@@ -11,7 +11,7 @@ To use `Config Helper` in your project, add it as a dependency in your `Cargo.to
 
 ```toml
 [dependencies]
-config_helper = "0.1.0"
+config_helper = "0.1.1"
 ```
 ## Usage
 ### Define a Configuration Struct
